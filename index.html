@@ -11,35 +11,35 @@
 
 <meta property="og:title" content="Happy Birthday, Mum ❤️">
 <meta property="og:description" content="Our greatest blessing, our safe place. Come celebrate her with us.">
-<meta property="og:image" content="https://REPLACE-WITH-YOUR-GITHUB-USERNAME.github.io/REPLACE-WITH-REPO-NAME/assets/mum-square.png">
+<meta property="og:image" content="https://johnnykeyz.github.io/HAPPY-BIRTHDAY-MUMMY/mum-square.png">
 <meta property="og:type" content="website">
-<meta property="og:url" content="https://REPLACE-WITH-YOUR-GITHUB-USERNAME.github.io/REPLACE-WITH-REPO-NAME/">
+<meta property="og:url" content="https://johnnykeyz.github.io/HAPPY-BIRTHDAY-MUMMY/">
 
 <!-- Twitter Card -->
 
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:title" content="Happy Birthday, Mum ❤️">
 <meta name="twitter:description" content="Our greatest blessing, our safe place. Come celebrate her with us.">
-<meta name="twitter:image" content="https://REPLACE-WITH-YOUR-GITHUB-USERNAME.github.io/REPLACE-WITH-REPO-NAME/assets/mum-square.png">
+<meta name="twitter:image" content="https://johnnykeyz.github.io/HAPPY-BIRTHDAY-MUMMY/mum-square.png">
 
 <!-- Favicon -->
 
 <link rel="icon" type="image/png" href="favicon.png">
-<link rel="apple-touch-icon" href="assets/favicon-192.png">
+<link rel="apple-touch-icon" href="favicon-192.png">
 
 <style>
   @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,500;0,600;0,700;1,500&family=Inter:wght@300;400;500;600&display=swap');
 
   :root{
-    --emerald: #1B3A2F;
-    --emerald-deep: #10241C;
-    --emerald-soft: #2E5647;
-    --ivory: #F5EFE4;
-    --blush: #E7C6C0;
-    --gold: #C9A25D;
-    --gold-light: #E4C989;
-    --rose: #B4657A;
-    --ink: #2A2118;
+    --wine: #5C1F2E;
+    --wine-deep: #3A1120;
+    --wine-soft: #7A2E3F;
+    --champagne: #F3E9DD;
+    --rose: #D98A93;
+    --rose-soft: #E8B9BE;
+    --gold: #C9974F;
+    --gold-light: #E6C384;
+    --ink: #2A1418;
   }
 
   *{margin:0; padding:0; box-sizing:border-box;}
@@ -48,7 +48,7 @@
 
   body{
     font-family:'Inter', sans-serif;
-    background: var(--ivory);
+    background: var(--champagne);
     color: var(--ink);
     overflow-x:hidden;
   }
@@ -87,7 +87,7 @@
     justify-content:center;
     text-align:center;
     padding: 100px 24px 80px;
-    background: radial-gradient(ellipse at top, var(--emerald-soft) 0%, var(--emerald) 45%, var(--emerald-deep) 100%);
+    background: radial-gradient(ellipse at top, var(--wine-soft) 0%, var(--wine) 45%, var(--wine-deep) 100%);
     overflow:hidden;
     z-index:2;
   }
@@ -99,7 +99,7 @@
     transform:translateX(-50%);
     width:600px; height:600px;
     border-radius:50%;
-    border:1px solid rgba(201,162,93,0.25);
+    border:1px solid rgba(230,195,132,0.25);
   }
   .hero::after{
     content:"";
@@ -108,7 +108,7 @@
     transform:translateX(-50%);
     width:420px; height:420px;
     border-radius:50%;
-    border:1px solid rgba(201,162,93,0.18);
+    border:1px solid rgba(230,195,132,0.18);
   }
 
   .eyebrow{
@@ -131,7 +131,7 @@
     font-weight:700;
     font-size: clamp(48px, 9vw, 96px);
     line-height:1.05;
-    color: var(--ivory);
+    color: var(--champagne);
     opacity:0;
     animation: fadeUp 0.9s ease forwards 0.4s;
   }
@@ -139,7 +139,7 @@
   .hero h1 em{
     font-style:italic;
     font-weight:500;
-    color: var(--gold-light);
+    color: var(--rose-soft);
     display:inline-block;
     animation: wiggle 3.5s ease-in-out infinite 2s;
   }
@@ -163,9 +163,9 @@
     width:260px; height:260px;
     border-radius:50%;
     padding:6px;
-    background: conic-gradient(from 0deg, var(--gold), var(--gold-light), var(--rose), var(--gold));
+    background: conic-gradient(from 0deg, var(--gold), var(--rose-soft), var(--gold-light), var(--gold));
     animation: spin 8s linear infinite;
-    box-shadow: 0 20px 50px rgba(16,36,28,0.4);
+    box-shadow: 0 20px 50px rgba(58,17,32,0.45);
   }
 
   @keyframes spin{
@@ -177,7 +177,7 @@
     border-radius:50%;
     object-fit:cover;
     object-position:50% 15%;
-    border: 5px solid var(--emerald-deep);
+    border: 5px solid var(--wine-deep);
     display:block;
   }
 
@@ -188,7 +188,7 @@
     font-family:'Playfair Display', serif;
     font-style:italic;
     font-size: clamp(18px, 2.4vw, 24px);
-    color: var(--blush);
+    color: var(--rose-soft);
     max-width:520px;
     opacity:0;
     animation: fadeUp 0.9s ease forwards 1s;
@@ -217,25 +217,39 @@
     border:none;
     cursor:pointer;
     transition: transform 0.25s ease, box-shadow 0.25s ease;
+    display:inline-flex;
+    align-items:center;
+    gap:10px;
+    text-decoration:none;
   }
 
   .btn-primary{
     background: linear-gradient(135deg, var(--gold-light), var(--gold));
-    color: var(--emerald-deep);
-    box-shadow: 0 10px 28px rgba(201,162,93,0.4);
+    color: var(--wine-deep);
+    box-shadow: 0 10px 28px rgba(201,151,79,0.4);
   }
   .btn-primary:hover{
     transform: translateY(-3px) scale(1.04);
-    box-shadow: 0 14px 34px rgba(201,162,93,0.55);
+    box-shadow: 0 14px 34px rgba(201,151,79,0.55);
+  }
+
+  .btn-whatsapp{
+    background: #25D366;
+    color: #0b3d1f;
+    box-shadow: 0 10px 28px rgba(37,211,102,0.35);
+  }
+  .btn-whatsapp:hover{
+    transform: translateY(-3px) scale(1.04);
+    box-shadow: 0 14px 34px rgba(37,211,102,0.5);
   }
 
   .btn-secondary{
     background: transparent;
-    color: var(--ivory);
-    border: 1.5px solid rgba(245,239,228,0.5);
+    color: var(--champagne);
+    border: 1.5px solid rgba(243,233,221,0.5);
   }
   .btn-secondary:hover{
-    background: rgba(245,239,228,0.1);
+    background: rgba(243,233,221,0.1);
     transform: translateY(-3px);
   }
 
@@ -266,7 +280,7 @@
   .message-section{
     position:relative;
     z-index:2;
-    background: var(--ivory);
+    background: var(--champagne);
     padding: 110px 24px;
     text-align:center;
   }
@@ -290,7 +304,7 @@
     font-weight:500;
     font-size: clamp(20px, 3vw, 30px);
     line-height:1.6;
-    color: var(--emerald-deep);
+    color: var(--wine-deep);
     margin-bottom:30px;
     opacity:0;
     transform: translateY(20px);
@@ -313,86 +327,14 @@
     font-size:17px;
     letter-spacing:2px;
     text-transform:uppercase;
-    color: var(--emerald);
-  }
-
-  /* ---------- gallery ---------- */
-  .gallery-section{
-    position:relative;
-    z-index:2;
-    background: linear-gradient(180deg, var(--ivory), #EFE6D3);
-    padding: 40px 24px 120px;
-    text-align:center;
-  }
-
-  .gallery-title{
-    font-family:'Playfair Display', serif;
-    font-weight:600;
-    font-size: clamp(28px, 4vw, 40px);
-    color: var(--emerald-deep);
-    margin-bottom:12px;
-  }
-
-  .gallery-title span{
-    color: var(--rose);
-    font-style:italic;
-  }
-
-  .gallery-sub{
-    color:#6b5f4d;
-    font-size:15px;
-    margin-bottom:56px;
-  }
-
-  .gallery-grid{
-    display:grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap:24px;
-    max-width:900px;
-    margin:0 auto;
-  }
-
-  .gallery-item{
-    border-radius:12px;
-    overflow:hidden;
-    aspect-ratio: 3/4;
-    box-shadow: 0 14px 30px rgba(27,58,47,0.18);
-    transform: rotate(var(--tilt, 0deg));
-    transition: transform 0.35s ease, box-shadow 0.35s ease;
-    opacity:0;
-    translate: 0 30px;
-  }
-  .gallery-item.visible{
-    animation: galleryIn 0.7s ease forwards;
-  }
-  @keyframes galleryIn{
-    to{ opacity:1; translate: 0 0; }
-  }
-
-  .gallery-item:nth-child(1){ --tilt: -3deg; }
-  .gallery-item:nth-child(2){ --tilt: 2deg; }
-  .gallery-item:nth-child(3){ --tilt: -1.5deg; }
-
-  .gallery-item:hover{
-    transform: rotate(0deg) scale(1.04);
-    box-shadow: 0 20px 40px rgba(27,58,47,0.28);
-  }
-
-  .gallery-item img{
-    width:100%; height:100%;
-    object-fit:cover;
-    display:block;
-  }
-
-  @media (max-width: 720px){
-    .gallery-grid{ grid-template-columns: 1fr; max-width:320px; }
+    color: var(--wine-soft);
   }
 
   /* ---------- footer CTA ---------- */
   .footer-cta{
     position:relative;
     z-index:2;
-    background: linear-gradient(160deg, var(--emerald-deep), var(--emerald));
+    background: linear-gradient(160deg, var(--wine-deep), var(--wine));
     padding: 90px 24px;
     text-align:center;
     overflow:hidden;
@@ -403,7 +345,7 @@
     font-weight:600;
     font-style:italic;
     font-size: clamp(26px, 4vw, 38px);
-    color: var(--ivory);
+    color: var(--champagne);
     margin-bottom:36px;
     max-width:600px;
     margin-left:auto;
@@ -449,7 +391,7 @@
 
   <div class="portrait-wrap">
     <div class="portrait-ring">
-      <img src="assets/mum.png" alt="Mum smiling">
+      <img src="mum.png" alt="Mum smiling">
     </div>
   </div>
 
@@ -475,24 +417,12 @@
   </div>
 </section>
 
-<!-- GALLERY -->
-
-<section class="gallery-section">
-  <h2 class="gallery-title">Moments With <span>Mum</span></h2>
-  <p class="gallery-sub">A few of our favourites</p>
-  <div class="gallery-grid" id="galleryGrid">
-    <div class="gallery-item"><img src="assets/mum.png" alt="Mum, photo 1"></div>
-    <div class="gallery-item"><img src="assets/mum.png" alt="Mum, photo 2"></div>
-    <div class="gallery-item"><img src="assets/mum.png" alt="Mum, photo 3"></div>
-  </div>
-</section>
-
 <!-- FOOTER CTA -->
 
 <section class="footer-cta">
-  <h2>Drop a birthday message for Mum, or just send this page to someone who loves her too.</h2>
+  <h2>Send Mum a birthday message straight to her phone.</h2>
   <div class="share-row">
-    <button class="btn btn-primary" id="shareBtn">💌 Share This Page</button>
+    <a class="btn btn-whatsapp" id="whatsappBtn" href="https://wa.me/2348099687731?text=Happy%20Birthday%20Mum%21%20%E2%9D%A4%EF%B8%8F%20I%20made%20this%20page%20just%20for%20you%3A%20" target="_blank" rel="noopener">💬 Wish Her On WhatsApp</a>
     <button class="btn btn-secondary" id="confettiBtn">✨ More Glitter</button>
   </div>
   <div class="footer-note">With Love, Always</div>
@@ -533,7 +463,7 @@
   resizeCanvas();
   window.addEventListener('resize', resizeCanvas);
 
-  const confettiColors = ['#C9A25D','#E4C989','#1B3A2F','#B4657A','#F5EFE4','#E7C6C0'];
+  const confettiColors = ['#C9974F','#E6C384','#5C1F2E','#D98A93','#F3E9DD','#E8B9BE'];
   let particles = [];
 
   function burstConfetti(count = 140){
@@ -592,26 +522,8 @@
   document.getElementById('celebrateBtn').addEventListener('click', () => burstConfetti(220));
   document.getElementById('confettiBtn').addEventListener('click', () => burstConfetti(220));
 
-  /* ---------- share button ---------- */
-  document.getElementById('shareBtn').addEventListener('click', async () => {
-    const shareData = {
-      title: 'Happy Birthday, Mum ❤️',
-      text: 'A little page we made to celebrate Mum today 💛',
-      url: window.location.href
-    };
-    if(navigator.share){
-      try{ await navigator.share(shareData); } catch(e){}
-    } else {
-      navigator.clipboard.writeText(window.location.href);
-      const btn = document.getElementById('shareBtn');
-      const original = btn.textContent;
-      btn.textContent = 'Link Copied!';
-      setTimeout(() => btn.textContent = original, 2000);
-    }
-  });
-
-  /* ---------- scroll reveal for message lines & gallery ---------- */
-  const revealTargets = document.querySelectorAll('.message-lines .line, .gallery-item');
+  /* ---------- scroll reveal for message lines ---------- */
+  const revealTargets = document.querySelectorAll('.message-lines .line');
   const observer = new IntersectionObserver((entries) => {
     entries.forEach((entry, i) => {
       if(entry.isIntersecting){
